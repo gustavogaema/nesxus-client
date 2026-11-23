@@ -2,6 +2,7 @@ package dev.nexus.client.modules;
 
 import dev.nexus.client.config.ConfigManager;
 import dev.nexus.client.module.HudMod;
+import dev.nexus.client.module.HudMod.HudLine;
 import dev.nexus.client.setting.Setting;
 import dev.nexus.client.util.Fx;
 import net.minecraft.client.MinecraftClient;
