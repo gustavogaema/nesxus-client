@@ -48,7 +48,7 @@ public final class Projector {
         float dtTicks = Math.min(5f, (now - lastNs) / 5.0e7f);
         lastNs = now;
         float f = 1f;
-        if (p.getAbilities().isFlying()) f *= 1.1f;
+        if (p.getAbilities().flying) f *= 1.1f;
         float walk = p.getAbilities().getWalkSpeed();
         if (walk > 0) f *= (p.getMovementSpeed() / walk + 1f) / 2f;
         if (Float.isNaN(f) || Float.isInfinite(f)) f = 1f;
